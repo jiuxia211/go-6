@@ -1,0 +1,17 @@
+syntax="proto3";
+package pb;
+option go_package="/internal/service;service";
+//在/internal/service目录下 包名为service
+message TaskModel{
+  string title=1;
+
+  string content=2;
+
+  uint32 status=3;
+
+  uint32 start_time=4;
+
+  uint32 end_time=5;
+
+  uint32 tid=6;
+}
