@@ -14,11 +14,11 @@ gin+grpc+etcd
 
 2.打开etcd
 
-##### 网关层启动  make build-gateway 
-
 ##### 用户模块启动 make build-user
 
 ##### 事务模块启动 make build-task
+
+##### 网关层启动  make build-gateway 
 
 然后在 grpc-todoList\gateway\cmd && grpc-todoList\user\cmd && grpc-todoList\task\cmd
 
