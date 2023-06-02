@@ -71,7 +71,7 @@ func (server *Server) Unregister(cli *clientv3.Client) {
 	}
 }
 
-// 这个方法暂时没用到
+// NewMaster 这个方法暂时没用到
 func (server *Server) NewMaster(etcdAddr []string) {
 	//先创建一个客户端
 	cli, err := clientv3.New(clientv3.Config{
